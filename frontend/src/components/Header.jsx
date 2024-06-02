@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
@@ -15,6 +15,8 @@ function Header() {
   const LogoutHandler = () => {
     dispatch(logout());
   };
+
+
 
   return (
     <header>

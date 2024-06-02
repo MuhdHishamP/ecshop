@@ -19,8 +19,8 @@ import {
   USER_LIST_FAIL,
   USER_LIST_RESET,
 } from "../constants/userConstants";
-
 import { ORDER_LIST_MY_RESET } from "../constants/orderConstants";
+
 
 export const login = (email, password) => async (dispatch) => {
   try {
@@ -52,7 +52,9 @@ export const login = (email, password) => async (dispatch) => {
   }
 };
 
-export const logout = (dispatch) => {
+
+
+export const logout = () => async (dispatch) => {
   localStorage.removeItem("userInfo");
   dispatch({ type: USER_LOGOUT });
   dispatch({ type: USER_DETAIL_RESET });
