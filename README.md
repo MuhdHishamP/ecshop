@@ -1,4 +1,4 @@
-# PropShop Ecommerce Website With Django + React
+# PropShop Ecommerce Website With Django + React + Redux
 
 Live Demo can be viewed at [https://ecshop-django-react.onrender.com/#/](https://ecshop-django-react.onrender.com/#/)
 
@@ -17,17 +17,7 @@ Live Demo can be viewed at [https://ecshop-django-react.onrender.com/#/](https:/
 - Checkout process (shipping, payment method, etc)
 - Razorpay / debit card integration
 
-## Download & Setup Instructions
-1. Clone project: git clone https://github.com/MuhdHishamP/Ecshop-Django-React.git
-2. cd ecshop
-3. Create virtual environment: virtualenv myenv
-4. myenv\scripts\activate
-5. pip install -r requirements.txt
-6. python manage.py runserver
 
-## Install react modules
-1. cd frontend
-2. npm install
 
 
 
