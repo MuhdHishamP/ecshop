@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate, Link, useParams } from "react-router-dom";
+import React, {  useEffect } from "react";
+import {  Link, useParams } from "react-router-dom";
 import { Button, Col, Row, ListGroup, Image, Card } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
@@ -13,7 +13,6 @@ function OrderScreen() {
   const orderDetails = useSelector((state) => state.orderDetails);
   const { order, loading, error } = orderDetails;
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   let razorPayAmount;
   let itemsPrice;
 
@@ -32,22 +31,18 @@ function OrderScreen() {
   }, [order, orderId, dispatch]);
 
   const handleRazorPay = () => {
-    var options = {
+    const options = {
       key: "rzp_test_tpPg5W0HbmQJe2",
       amount: razorPayAmount,
-      currency: "INR",
+      currency: "KZT",
       name: "EcShop",
       image: "/favicon.png",
       handler: function (response) {
-        alert("Payment successful: " + response.razorpay_payment_id);
-      },
-      prefill: {
-        name: "Your Name",
-        email: "your.email@example.com",
+        alert("Payment Successful with Payment ID " + response.razorpay_payment_id);
       },
     };
 
-    var rzp = new Razorpay(options);
+    const rzp = new Razorpay(options);
     rzp.open();
   };
 
