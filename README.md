@@ -4,8 +4,8 @@ Live Demo can be viewed at [https://ecshop-django-react.onrender.com/#/](https:/
 
 To login, you can use the following credentials:
 
-- **Email**: `sample@example.com`
-- **Password**: `password123`
+- **Email**: `muhammed@gmail.com`
+- **Password**: `9Sv4GZPknKkk7jS`
 
 ![image](https://github.com/MuhdHishamP/Ecshop-Django-React/assets/99111049/edfc2ff4-fba9-460b-b2d2-6441fa02593c)
 
