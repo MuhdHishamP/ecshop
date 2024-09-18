@@ -1,6 +1,11 @@
 # EcShop Ecommerce Website With Django + React + Redux
 
-Live Demo can be viewed at [https://ecshop-django-react.onrender.com/#/](https://ecshop-django-react.onrender.com/#/)
+Live Demo can be viewed at [https://ecshop-django-react.onrender.com/#/](https://ecshop-django-react.onrender.com/#/).
+
+To login, you can use the following credentials:
+
+- **Email**: `sample@example.com`
+- **Password**: `password123`
 
 ![image](https://github.com/MuhdHishamP/Ecshop-Django-React/assets/99111049/edfc2ff4-fba9-460b-b2d2-6441fa02593c)
 
