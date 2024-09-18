@@ -20,7 +20,7 @@ To login, you can use the following credentials:
 - Admin Order management
 - Mark orders as delivered option
 - Checkout process (shipping, payment method, etc)
-- Razorpay / debit card integration
+- Payment Gateway / Debit Card Integration
 
 
 
