@@ -1,4 +1,4 @@
-# EcShop Ecommerce Website With Django + React + Redux
+# EcShop Ecommerce Website Built With Django + React + Redux
 
 Live Application can be viewed at [https://ecshop-django-react.onrender.com/#/](https://ecshop-django-react.onrender.com/#/).
 
